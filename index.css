@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----- TYPOGRAPHY ----- */
+
+/* ----- STRUCTURE ----- */
+
+main {
+  width: 100%;
+  border: 1px solid red;
+}
+
+header {
+  border: 2px solid purple;
+}
+
+.slogan {
+  background-color: aqua;
+}
+
+.header-title {
+  background-color: aqua;
+}
+.join-us {
+  background-color: aqua;
+}
+
+.register {
+  border: 2px solid pink;
+}
+
+h1 {
+  background-color: cadetblue;
+}
+
+h2 {
+  background-color: cadetblue;
+}
+
+p {
+  background-color: cadetblue;
+}
+
+p.small {
+  background-color: chartreuse;
+}
+
+form {
+  background-color: darkgoldenrod;
+}
