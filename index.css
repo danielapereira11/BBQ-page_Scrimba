@@ -8,12 +8,27 @@ body {
 
 /* ----- TYPOGRAPHY ----- */
 
+h2 {
+  color: #f18119;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 900;
 }
 
 h1.header-title {
   color: #ffffff;
   font-size: 2.25rem;
   font-weight: 300;
+}
+
+h1.register-title {
+  color: #404040;
+  font-weight: 900;
+}
+
+h1.register-title,
+p.join-us {
+  font-size: 1.27rem;
 }
 
 p.slogan,
@@ -29,12 +44,19 @@ p.slogan {
   line-height: 1.5;
 }
 
-p.join-us {
-  font-size: 1.27rem;
+p.quote {
+  color: #5a5a5a;
+  font-size: 1rem;
 }
 
 .bold {
   font-weight: 900;
+}
+
+p.small {
+  font-size: 0.625rem;
+  color: #989898;
+  font-weight: normal;
 }
 
 /* ----- STRUCTURE ----- */
@@ -55,8 +77,8 @@ header {
 }
 
 section.register {
-  border: 2px solid pink;
-  height: 453px;
+  margin: 0;
+  padding: 0;
   background-color: #ffffff;
 }
 
@@ -80,13 +102,11 @@ form {
 }
 
 .register-container {
+  margin: 0 auto;
+  padding: 0;
   display: flex;
   flex-direction: column;
-}
-
-h1 {
-  background-color: cadetblue;
-  border: 1px solid black;
+  max-width: 90%;
 }
 
 h1.header-title {
@@ -94,9 +114,12 @@ h1.header-title {
   margin: 2.5em 0;
 }
 
+h1.register-title {
+  margin: 1.5em 0 0 0;
+}
+
 h2 {
-  background-color: cadetblue;
-  border: 1px solid black;
+  margin: 0 0 1.2em 0;
 }
 
 p.slogan {
@@ -112,13 +135,13 @@ p.join-us {
 }
 
 p.quote {
-  background-color: cadetblue;
-  border: 1px solid black;
+  margin: 0;
+  padding: 0;
 }
 
 p.small {
-  background-color: chartreuse;
-  border: 1px solid black;
+  margin: 0 0 8em 0;
+  padding: 0;
 }
 
 .header-top-bar {
