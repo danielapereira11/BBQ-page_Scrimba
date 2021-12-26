@@ -2,26 +2,58 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Source Sans 3", sans-serif;
+  font-size: 1rem;
 }
 
 /* ----- TYPOGRAPHY ----- */
+
+h1 {
+  text-align: center;
+}
+
+h1.header-title {
+  color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+p.slogan,
+p.join-us {
+  color: #f18119;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+}
+
+p.slogan {
+  font-size: 0.625rem;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+p.join-us {
+  font-size: 1.27rem;
+}
+
+.bold {
+  font-weight: 900;
+}
 
 /* ----- STRUCTURE ----- */
 
 main {
   width: 100%;
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  border: 2px solid purple;
+  margin: 0;
+  padding: 0;
   background-image: url("pork-ribs2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 358px;
 }
 
 section.register {
@@ -36,12 +68,17 @@ form {
 }
 
 .header-container {
-  border: 3px solid peachpuff;
-  height: 100%;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  margin: 0 auto;
+  padding: 0;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
+}
+
+.blur {
+  width: 100%;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 .register-container {
@@ -54,19 +91,20 @@ h1 {
   border: 1px solid black;
 }
 
+h1.header-title {
+  padding: 0;
+  margin: 2.5em 0;
+}
+
 h2 {
   background-color: cadetblue;
   border: 1px solid black;
 }
 
-h1.header-title {
-  background-color: aqua;
-  border: 1px solid black;
-}
-
 p.slogan {
-  background-color: aqua;
-  border: 1px solid black;
+  margin: 0;
+  margin-top: 0.75em;
+  padding: 0;
 }
 
 p.join-us {
@@ -84,8 +122,8 @@ p.small {
   border: 1px solid black;
 }
 
-.header-top {
-  height: 13px;
+.header-top-bar {
+  height: 12px;
   width: 181px;
   margin: 0 auto;
   z-index: 1;
