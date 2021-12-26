@@ -23,6 +23,17 @@ header {
   height: 358px;
 }
 
+section.register {
+  border: 2px solid pink;
+  height: 453px;
+  background-color: #ffffff;
+}
+
+form {
+  background-color: darkgoldenrod;
+  border: 1px solid black;
+}
+
 .header-container {
   border: 3px solid peachpuff;
   height: 100%;
@@ -32,23 +43,6 @@ header {
   flex-direction: column;
 }
 
-.slogan {
-  background-color: aqua;
-}
-
-.header-title {
-  background-color: aqua;
-}
-.join-us {
-  background-color: aqua;
-}
-
-.register {
-  border: 2px solid pink;
-  height: 453px;
-  background-color: #ffffff;
-}
-
 .register-container {
   display: flex;
   flex-direction: column;
@@ -56,20 +50,35 @@ header {
 
 h1 {
   background-color: cadetblue;
+  border: 1px solid black;
 }
 
 h2 {
   background-color: cadetblue;
+  border: 1px solid black;
 }
 
-p {
+h1.header-title {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+p.slogan {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+p.join-us {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+p.quote {
   background-color: cadetblue;
+  border: 1px solid black;
 }
 
 p.small {
   background-color: chartreuse;
-}
-
-form {
-  background-color: darkgoldenrod;
+  border: 1px solid black;
 }
