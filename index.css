@@ -45,6 +45,8 @@ header {
 
 .register {
   border: 2px solid pink;
+  height: 453px;
+  background-color: #ffffff;
 }
 
 .register-container {
