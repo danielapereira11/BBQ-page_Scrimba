@@ -195,3 +195,54 @@ button {
 }
 
 /* ----- /. FORM ----- */
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width: 645px) {
+  main {
+    flex-direction: row;
+    height: 100%;
+  }
+  header {
+    width: 60%;
+    height: 100vh;
+  }
+  section.register {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header-main-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blur,
+  .header-container {
+    height: 100%;
+  }
+  h1.header-title {
+    font-size: 3.5rem;
+    line-height: 1em;
+  }
+  h1.header-title,
+  p.join-us {
+    margin: 0;
+  }
+  h1.register-title,
+  p.join-us {
+    font-size: 1.75rem;
+  }
+  h2,
+  p.quote {
+    font-size: 1.125rem;
+  }
+  p.small {
+    margin: 0;
+  }
+}
+
+/* ----- /. MEDIA QUERIES ----- */
