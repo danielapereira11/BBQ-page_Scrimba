@@ -181,7 +181,7 @@ input {
   font-weight: 300;
 }
 
-button {
+.btn {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.625rem;
   font-weight: 700;
@@ -192,6 +192,14 @@ button {
     0% no-repeat padding-box;
   border: none;
   padding: 1.3em;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  background: transparent
+    linear-gradient(270deg, #838383 0%, #404040 50%, #313131 100%) 0% 0%
+    no-repeat padding-box;
 }
 
 /* ----- /. FORM ----- */
