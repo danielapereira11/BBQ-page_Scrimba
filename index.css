@@ -83,3 +83,14 @@ p.small {
   background-color: chartreuse;
   border: 1px solid black;
 }
+
+.header-top {
+  height: 13px;
+  width: 181px;
+  margin: 0 auto;
+  z-index: 1;
+  padding: 0;
+  background: transparent
+    linear-gradient(270deg, #ff895d 0%, #df4e13 0%, #ffa51d 100%) 0% 0%
+    no-repeat padding-box;
+}
